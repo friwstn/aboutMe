@@ -79,7 +79,7 @@ q:after {
 }
 
 blockquote {
-  /*background-color: #F8F8F8;*/
+  /* background-color: #F8F8F8; */
   border-left: 2px solid #AFC0D2;
   margin: 1.6em 10%;
   padding: .75em 1em;
@@ -96,7 +96,7 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(background.jpg) center center no-repeat fixed;
+  background: center center no-repeat fixed;
   background-size:cover;
 }
 body {
