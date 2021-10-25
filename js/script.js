@@ -31,7 +31,7 @@
 // Cool loopy loop of adjectives I like :)
 $(document).ready(function() {
 
-  var items = ["Programming", "Community development", "Sustainable Energy", "Reading Book", "Adventuring"],
+  var items = ["Programming", "Community development", "Sustainable Energy", "Adventuring"],
       $text = $( '#about-me span' ),
       delay = 2; //seconds
   
