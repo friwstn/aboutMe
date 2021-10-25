@@ -140,5 +140,20 @@ ul.main-menu li a.active {
   display:block;
 }
 
+.icon-logo {
+  height: 24px;
+  width: 24px;
+  margin: 0px 12px 0px 2px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  text-decoration:none;
+}
+
+.icon-logo:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  text-decoration:none;
+}
+
 
 
