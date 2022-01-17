@@ -9,10 +9,14 @@ html {
 
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
+  /* line-height: 1.6;
+  font-weight: 400; */
   font-family: "Catamaran", "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  background-color: #0F044C;
+  border-radius: 250px;
+  /* padding: 20;  */
+ 
+  
 }
 
 /**
@@ -21,7 +25,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#EF6D3D;
+  color:#EEEEEE;
 }
 a:focus {
   outline: thin dotted;
@@ -61,9 +65,9 @@ h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
 }
-p + p {
+/* p + p {
 
-}
+} */
 
 /**
  * Quotes & Blockquotes
@@ -104,9 +108,9 @@ body {
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(255, 254, 254, 0.8); 
+  background: #141E61; 
   padding:25px;
-  color:#0e0d0d; 
+  color:#EEEEEE; 
 }
 
 /* Menu Links */
@@ -122,14 +126,14 @@ ul.main-menu li a {
   margin-right:20px;
   font-size:2.0rem;
   border-bottom: solid transparent 3px;
-  color:#01050f;
+  color:#ECB365;
 }
 ul.main-menu li a:hover {
-  color:#FFFFFF;
+  color:#EEEEEE;
 }
 ul.main-menu li a.active {
   color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
+  border-bottom-color:#787A91;
 }
 
 /* Utility classes */
